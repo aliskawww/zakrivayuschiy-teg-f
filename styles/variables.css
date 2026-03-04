@@ -12,6 +12,7 @@
     --bkg-card: #fff;
     --text-stroke-color: #fff;
     --border-color: #000;
+    --box-shdw-color: #000;
     --title-description-size: 23px;
     --container-width: clamp(375px, 90vw, 700px);
     --container-height: clamp(527px, 90vh, 566px);
@@ -23,4 +24,6 @@
     --animation-fill-color: #ff0000;
     --sparks-color: #ff0000;
     --core-color: #fff;
+    --fill-floppy: #000;
+    --txt-shdw: #000;
 }

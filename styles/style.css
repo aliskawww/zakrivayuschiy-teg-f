@@ -125,10 +125,10 @@
   mix-blend-mode: hard-light;
   opacity: 50%;
   text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    -1px -1px 0 var(--txt-shdw),
+    1px -1px 0 var(--txt-shdw),
+    -1px 1px 0 var(--txt-shdw),
+    1px 1px 0 var(--txt-shdw);
   text-transform: uppercase;
   z-index: 1;
 }
@@ -271,7 +271,7 @@
 }
 
 .floppy {
-  fill: #000;
+  fill: var(--fill-floppy);
 }
 
 .floppy-save {
@@ -376,7 +376,7 @@
 }
 
 .button:focus-visible {
-  box-shadow: 2px 2px 0 #000;
+  box-shadow: 2px 2px 0 var(--box-shdw-color);
   transition: 0.3s ease;
 }
 
