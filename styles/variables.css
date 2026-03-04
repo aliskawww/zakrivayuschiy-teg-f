@@ -8,7 +8,7 @@
     --accent-font: 'PressStart2P';
     --card-title-weight: 715;
     --card-text-weight: 410;
-    --title-size: 49px;
+    --title-size: 65px;
     --bkg-card: #fff;
     --text-stroke-color: #fff;
     --border-color: #000;
@@ -19,6 +19,7 @@
     --btn-bkg-color: #fff;
     --btn-txt-color: #fff;
     --color-contour: #000;
+    --fill-animation-hover: #000;
     --animation-fill-color: #ff0000;
     --sparks-color: #ff0000;
     --core-color: #fff;

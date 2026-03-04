@@ -30,12 +30,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 138px 122.5px;
+  padding: 130px 122.5px;
   margin-block-start: 100px;
-  margin-block-end: 104px;
+  margin-block-end: 96px;
   inline-size: 100%;
-  background-color: #fff;
-  border: 2px solid #000;
+  background-color: var(--bkg-card);
+  border: 2px solid var(--border-color);
   row-gap: 20px;
 }
 
@@ -51,6 +51,7 @@
   font-size: var(--title-description-size);
   font-weight: normal;
   line-height: 100%;
+  text-transform: uppercase;
 }
 
 .card {
@@ -237,7 +238,7 @@
 
 .like-icon:hover .main-body,
 .like-icon:hover .core {
-  fill: #000;
+  fill: var(--fill-animation-hover);
 }
 
 .like-icon:active .main-body,
@@ -258,12 +259,6 @@
   block-size: 38px;
   margin: 0 25px 25px 10px;
   padding: 12.5px 37px;
-}
-
-.footer {
-  display: grid;
-  justify-self: center;
-  inline-size: var(--container-width);
 }
 
 .button-save {
@@ -290,7 +285,7 @@
   position: fixed;
   inset: 0;
   padding: 28px 38px;
-  border: 2px solid #000;
+  border: 2px solid var(--border-color);
   width: var(--modal-width);
 }
 
@@ -332,10 +327,12 @@
 @media (width<=375px) {
   :root {
     --title-description-size: 14px;
+    --title-size: 49px;
   }
 
   .header__title {
     padding: 122px 16px;
+    margin-block-end: 102px;
   }
 
   .button-save {
@@ -390,7 +387,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000;
+  background-color: var(--fill-animation-hover);
   transform: translateX(-100%);
   transition: 0.5s ease-in-out;
 }
