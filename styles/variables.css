@@ -1,15 +1,20 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
+    --bkg-image: 
+        repeating-linear-gradient(#d3d3d3 0px 2px, transparent 2px 4px),
+        repeating-linear-gradient(90deg, #d3d3d3 0px 2px, transparent 2px 4px),
+        linear-gradient(#e7e7e7 0.01%, #1a1a1a 100%);
     --variable-font: "Inter-Variable";
     --accent-font: 'PressStart2P';
     --card-title-weight: 715;
     --card-text-weight: 410;
     --title-size: 49px;
+    --bkg-card: #fff;
     --text-stroke-color: #fff;
-    --title-description-size: 14px;
+    --border-color: #000;
+    --title-description-size: 23px;
     --container-width: clamp(375px, 90vw, 700px);
     --container-height: clamp(527px, 90vh, 566px);
-    --header-title-height: clamp(327px, 48vh, 368px);
     --modal-width: clamp(341px, 90vw, 353px);
     --btn-bkg-color: #fff;
     --btn-txt-color: #fff;
