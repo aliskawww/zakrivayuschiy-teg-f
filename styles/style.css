@@ -165,7 +165,7 @@
 .card__icon-button {
   display: flex;
   position: relative;
-  padding: 0;  
+  padding: 0;
   align-items: center;
   background-color: var(--btn-bkg-color);
   border: 2px solid transparent;
@@ -262,12 +262,10 @@
   padding: 12.5px 37px;
 }
 
-
 .footer {
   display: grid;
   justify-self: center;
   inline-size: var(--container-width);
-  
 }
 
 .footer__button-save {
@@ -375,7 +373,7 @@
 }
 
 .button::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
